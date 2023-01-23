@@ -1,5 +1,6 @@
 <table class="table table-striped table-hover">
     <tr>
+        <th>Nomor Induk</th>
         <th>Nama Pegawai</th>
         <th>Role</th>
         <th>Aksi</th>
@@ -14,6 +15,7 @@
     while ($row = $result->fetch_assoc()) {
     ?>
         <tr>
+            <td><?= $row['employeeId'] ?></td>
             <td><?= $row['fullName'] ?></td>
             <td><?= $row['role'] ?></td>
             <td>

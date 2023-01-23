@@ -139,7 +139,7 @@ if (isset($_POST['logout'])) {
                         <?php include("role.php") ?>
                     </select>
                     <label class="form-label fw-semibold">Kata Sandi</label>
-                    <input type="password" name="password_edit" id="password_edit" class="form-control form-control-md" placeholder="Ketik password baru dan simpan jika lupa password">
+                    <input type="password" name="password_edit" id="password_edit" class="form-control form-control-md" placeholder="Ketik password baru dan simpan jika lupa atau tidak tahu password">
                     <label class="form-label"><input type="checkbox" onclick="showPass()"> Lihat kata sandi</label>
                     <?php
                     if (isset($_GET['msged'])) {
